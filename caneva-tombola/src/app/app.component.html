@@ -1,0 +1,13 @@
+<h1 align="center">Caneva Tombola</h1>
+<div align="center">
+  <p><font color="red"><strong>sono AppComponent</strong></font></p>
+  <form>
+    <div class="form-group">
+      <label><h3>Dimmi un numero</h3></label>
+      <br>
+      <label id="visuaNumero">Numero Casuale</label>
+    </div>
+    <button id="bottone" type="submit" class="btn btn-warning" (click)="generaNumero()">Estai-Numero</button>
+  </form>
+  <app-cartella [numeriEstratti]="nummeriUsciti" [ultimoNumero]="ultimoNumero"></app-cartella>
+</div>
